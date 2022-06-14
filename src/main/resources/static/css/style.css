@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	margin: 50px 100px;
+}
+
+.topRow {
+	display: flex;
+	justify-content: space-between;
+}
+
+.goldDiv {
+	align-items: center;
+	display: flex;
+	gap: 20px;
+	margin-bottom: 50px;
+}
+
+.gold {
+	border: 3px solid black;
+	font-size: 20pt;
+	padding-left: 5px;
+	width: 75px
+}
+
+.boxWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.box {
+	border: 3px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 130px;
+	padding: 30px;
+	padding-top: 20px;
+	width: 175px;
+}
+
+.goldBtn {
+	background-color: gold;
+	border: 3px solid black;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+	color: black;
+	padding: 3px;
+	margin: 0px 15px;
+	text-decoration: none;
+}
+
+.output {
+	border: 3px solid black;
+	margin: 30px 0px;
+	height: 200px;
+	overflow: scroll;
+	width: 100%;
+}
+
+.restart {
+	background-color: blue;
+	border: 3px solid black;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+	color: white;
+	padding: 5px 20px;
+	text-decoration: none;
+}
+
+.earned {
+	color: green;
+	font-size: 13pt;
+}
+
+.failed {
+	color: red;
+	font-size: 13pt;
+}
